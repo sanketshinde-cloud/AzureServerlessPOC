@@ -1,0 +1,13 @@
+﻿@model List<string>
+@{
+    ViewBag.Title = "List blobs";
+}
+
+<h2>List blobs</h2>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item</li>
+    }
+</ul>
